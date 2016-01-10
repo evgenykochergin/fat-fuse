@@ -1,0 +1,1 @@
+ gcc -Wall fatfuse.c `pkg-config fuse --cflags --libs` -o fatfuse && ./fatfuse mounted-fs/
